@@ -63,6 +63,8 @@ if (typeof Dexie === 'undefined') {
   let filtroCategoria = null;
   let ricercaTermine = "";
   
+
+  
   // === Chargement initial ===
   window.addEventListener('DOMContentLoaded', async () => {
     // Vérifie si l'utilisateur est déjà connecté au cloud

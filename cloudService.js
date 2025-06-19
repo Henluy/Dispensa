@@ -3,7 +3,8 @@
 // Configuration Supabase (REMPLACE AVEC TES VALEURS)
 const supabaseUrl = 'https://bkdiihytoitqwkgjhosh.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJrZGlpaHl0b2l0cXdrZ2pob3NoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAyODMwNjYsImV4cCI6MjA2NTg1OTA2Nn0.2D14K6kmgdyt4kDdbYZdijNPL10_u1Def-VruodX7zQ';
-const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+const { createClient } = window.supabase;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 // ============ AUTHENTIFICATION ============
 

@@ -1,0 +1,185 @@
+name,category_id,quantity,min_threshold,unit
+Caciotta,formaggi,4,2,pz
+Taleggio,formaggi,1,2,pz
+Gorgonzola,formaggi,1,2,pz
+Mozzarella,formaggi,0,3,pz
+Philadelphia,formaggi,3,2,pz
+Pecorino buste,formaggi,2,3,pz
+Mascarpone,formaggi,11,2,pz
+Scamorza,formaggi,2,2,pz
+Parmigiano,formaggi,0,1,pz
+Pollo agrumi🍊🍊🍊,carne,11,20,kg
+Filetto di maiale,carne,24,15,kg
+Contro filetto,carne,12,1,kg
+Bistecche,carne,21,3,pz
+Salsiccie,carne,7,5,pz
+Macinato,carne,4,1,kg
+Culatello,carne,1,1,pz
+Capocollo,carne,3,1,pz
+Guanciale,carne,2,1,pz
+Mortadella,carne,1,1,pz
+Agnello,carne,7,1,kg
+Girello di vitello,carne,1,3,kg
+Lattuga romana,verdure,2,5,pz
+Rucola,verdure,2,3,pz
+Carote,verdure,20,5,pz
+Zucchine,verdure,28,5,pz
+Pomodorini rossi,verdure,2,1,pz
+Peperoni,verdure,17,3,pz
+Melanzane,verdure,13,3,pz
+Basilico,verdure,3,2,pz
+Menta,verdure,2,2,pz
+Arancia,verdure,24,5,pz
+Mela,verdure,12,5,pz
+Uva,verdure,1,2,kg
+Pomodori,verdure,15,5,pz
+Cipolla,verdure,2,5,pz
+Aglio,verdure,1,3,pz
+Prezzemolo,verdure,0,2,pz
+Rosmarino,verdure,1,2,pz
+Limone,verdure,25,5,pz
+Salmone,pesce,0,1,kg
+Gamberi,pesce,0,1,kg
+Spaghetti n.5,pasta_riso,6,5,pz
+Pasta salsiccia,pasta_riso,0,3,pz
+Gnocchi,pasta_riso,16,5,pz
+Penne,pasta_riso,6,5,pz
+Riso,pasta_riso,7,3,kg
+Fusilli,pasta_riso,4,5,pz
+Rigatoni,pasta_riso,0,5,pz
+Linguine,pasta_riso,0,5,pz
+Tagliatelle,pasta_riso,0,3,pz
+Lasagne,pasta_riso,2,3,pz
+Tortellini,pasta_riso,1,3,pz
+Olio EVO,condimenti,0,2,l
+Olio cucina,condimenti,3,2,l
+Olio gruppi,condimenti,2,2,l
+Olio di semi,condimenti,0,2,l
+Maionese,condimenti,3,2,pz
+Salsa tartufata,condimenti,2,2,pz
+Crema basilico,condimenti,2,2,pz
+Crema zucchine,condimenti,9,2,pz
+Aceto balsamico,condimenti,4,1,pz
+Aceto di vino,condimenti,0,1,pz
+Salsa pomodoro,condimenti,18,5,pz
+Pesto,condimenti,0,2,pz
+Ketchup,condimenti,0,2,pz
+Senape,condimenti,1,1,pz
+Sorbetto limone,dolci,1,2,pz
+Gelato,dolci,1,5,pz
+Viennette,dolci,0,5,pz
+Fragole,dolci,1,2,pz
+Frutti R,dolci,0,2,pz
+Cappellaci,pasta_riso,4,3,pz
+Tiramisù,dolci,0,2,pz
+Panna cotta,dolci,0,3,pz
+Cioccolato,dolci,3,2,pz
+Pane,pane_focacce,0,10,pz
+Focaccia,pane_focacce,0,3,pz
+Rum,bevande,0,1,pz
+Vino rosso,bevande,0,5,pz
+Vino bianco,bevande,0,5,pz
+Prosecco,bevande,0,3,pz
+Birra,bevande,0,10,pz
+Acqua naturale,bevande,0,20,pz
+Acqua frizzante,bevande,0,20,pz
+Coca Cola,bevande,0,10,pz
+Aranciata,bevande,0,5,pz
+Caffè,bevande,0,3,kg
+Carta forno,altri,2,5,pz
+Sapone piatti,altri,0,2,pz
+Spugne gialle,altri,0,10,pz
+Guanti l,altri,1,1,pz
+Carta igienica,altri,3,10,pz
+Tovaglioli,altri,1,10,pz
+Detersivo,altri,0,2,pz
+Sacchetti spazzatura,altri,0,5,pz
+Cipolla croccante,condimenti,2,1,pz
+Tahini,condimenti,7,2,pz
+Vaniglia,dolci,7,2,pz
+Sale fino,condimenti,9,4,pz
+Sale grosso,condimenti,9,2,pz
+Condiriso,condimenti,2,1,pz
+Pavesini,pane_focacce,8,2,pz
+Biscotti petit,pane_focacce,5,2,pz
+Olive nere a rondelle,condimenti,2,1,pz
+Pepe,condimenti,1,1,pz
+Olive nere intere,condimenti,1,2,pz
+Olive taggiasche,condimenti,2,1,pz
+Carta paia,altri,4,2,pz
+Pellicola,altri,2,1,pz
+Carta alluminio,altri,2,1,pz
+Sacapoche,altri,3,1,pz
+Toping cioccolato,condimenti,3,1,pz
+Toping caramello salato,condimenti,4,1,pz
+Toping caramello,condimenti,1,1,pz
+Toping passione fuit,condimenti,3,1,pz
+Fondo bruno,condimenti,4,1,pz
+Bruschettone,pane_focacce,1,2,pz
+Cacao,dolci,3,1,pz
+Amido di mais,pane_focacce,2,1,pz
+Gelatina,dolci,4,1,pz
+Panna cucina,latticini,30,12,pz
+Spaghetti rummo,pasta_riso,30,8,pz
+Buste sotto vuoto 15*25,altri,2,3,pz
+Buste sotto vuoto 20*30,altri,1,2,pz
+Buste sotto vuoto25*35,altri,1,1,pz
+Busta sotto vuoto 30*40,altri,1,1,pz
+Buste sotto vuoto 30*50,altri,2,1,pz
+Guanti m,altri,3,1,pz
+Guanti s,altri,1,1,pz
+Mascarpone,formaggi,8,3,pz
+Philadelphia,formaggi,2,1,pz
+Burro,latticini,3,2,pz
+Prima blanca,formaggi,12,8,pz
+Caprino,formaggi,4,1,pz
+Uova,latticini,80,30,pz
+Pecorino buste,formaggi,4,4,pz
+Burrata,formaggi,3,2,pz
+Feta,formaggi,2,3,pz
+Pecorino noci,formaggi,3,2,pz
+Pecorino pesto,formaggi,5,2,pz
+Pecorino tartufo,formaggi,4,1,pz
+Formaggio fiori,formaggi,2,2,pz
+Formaggio zenzero,formaggi,2,2,pz
+Formaggio erbe,formaggi,2,2,pz
+Mozzarella,formaggi,0,5,pz
+Gorgonzola,formaggi,1,1,pz
+Taleggio,formaggi,1,1,pz
+Pecorino stagionato,formaggi,11,4,pz
+Ventricina,salumi,2,1,pz
+Salamino al cinghiale,salumi,6,5,pz
+Salamino cinghiale e tartufo,salumi,6,5,pz
+Corallina,salumi,6,5,pz
+Tartufo,condimenti,5,3,pz
+Verdure ripassate,verdure,3,6,pz
+Porcini,altri,8,4,pz
+Punte,carne,3,1,pz
+Pollo brace,carne,3,5,pz
+Patate gruppi,verdure,5,3,pz
+Ragu,condimenti,6,3,pz
+Cipollara,condimenti,7,3,pz
+Hamburger,carne,10,4,pz
+Pasta di. Salciccia,carne,5,2,pz
+Pomodorini gialli,verdure,2,1,pz
+Ravanelli,verdure,2,1,pz
+Cavolo viola,verdure,5,1,pz
+Insalata Gruppi,verdure,0,5,pz
+Insalata iceberg,verdure,2,4,pz
+Cervo,carne,3,1,pz
+Coglioni di mulo,carne,4,2,pz
+Pompelmo,frutta,17,5,pz
+Miele,condimenti,2,3,pz
+Valeriana,verdure,3,5,pz
+Noci,frutta,3,1,pz
+Mandorle,frutta,1,2,pz
+Granella di pistacchio,frutta,2,1,pz
+Nocciole,frutta,2,2,pz
+Patate fresche,verdure,4,1,pz
+Strangozzi,pasta_riso,9,5,pz
+Formaggio curcuma,formaggi,2,1,pz
+Formaggio peperoncino,formaggi,2,1,pz
+Vitelloaff,carne,2,1,pz
+Lombetto,carne,7,2,pz
+Pane hamburger,pane_focacce,7,2,pz
+Latte,latticini,11,5,pz
