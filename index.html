@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6366f1" />
+  <title>Stock Ristorante</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/icon-192.png" sizes="192x192" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1>
+        <img src="assets/icon-192.png" alt="Logo" width="36" style="vertical-align: middle;" />
+        Stock Ristorante
+      </h1>
+      <div class="header-stats" id="headerStats">
+        <!-- Statistiche globali qui -->
+      </div>
+      <button class="export-btn" id="exportBtn">Esporta</button>
+      <button class="import-btn" id="importBtn">Importa</button>
+      <input type="file" id="importFile" style="display:none" accept=".json,.csv" />
+      <button class="login-btn" id="loginBtn">Accedi</button>
+      <button class="logout-btn" id="logoutBtn" style="display:none;">Esci</button>
+      <button class="sync-btn" id="syncBtn" style="display:none;">Sincronizza</button>
+    </div>
+  </header>
+
+  <nav class="category-filters" id="categoryFilters">
+    <!-- Filtri categorie generati dinamicamente -->
+  </nav>
+
+  <main>
+    <section class="search-container">
+      <div class="search-input-wrapper">
+        <input type="text" id="searchInput" class="search-input" placeholder="Cerca prodotto..." aria-label="Cerca prodotto" autocomplete="off" />
+        <button id="clearSearchBtn" class="clear-search-btn" aria-label="Pulisci ricerca">&times;</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </section>
+
+    <section class="products-list" id="productsList">
+      <!-- Lista prodotti caricata dinamicamente -->
+    </section>
+  </main>
+
+  <button class="add-product-btn" id="addProductBtn">Aggiungi prodotto</button>
+
+  <!-- Modal: aggiunta/modifica prodotto -->
+  <div class="modal" id="productModal" style="display:none;">
+    <div class="modal-content">
+      <h2 id="modalTitle">Aggiungi prodotto</h2>
+      <form id="productForm" autocomplete="off">
+        <label for="productName">Nome prodotto</label>
+        <input type="text" id="productName" name="name" required />
+
+        <label for="categorySelect">Categoria</label>
+        <select id="categorySelect" name="category" required>
+          <!-- Opzioni generate dinamicamente -->
+        </select>
+
+        <label for="quantity">Quantità</label>
+        <input type="number" id="quantity" name="quantity" min="0" required />
+
+        <label for="unit">Unità</label>
+        <input type="text" id="unit" name="unit" placeholder="es: kg, pz" />
+
+        <label for="minThreshold">Soglia minima (per avviso)</label>
+        <input type="number" id="minThreshold" name="min_threshold" min="0" />
+
+        <div class="modal-actions">
+          <button type="submit" class="save-btn">Salva</button>
+          <button type="button" class="cancel-btn" id="cancelModalBtn">Annulla</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: notifiche, messaggi, errori -->
+  <div class="toast" id="toast" style="display:none;"></div>
+
+  <!-- Dexie.js (IndexedDB local) -->
+  <script src="https://cdn.jsdelivr.net/npm/dexie@3/dist/dexie.min.js"></script>
+  <!-- Supabase.js (cloud) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <!-- Ton service cloud personnalisé -->
+  <script src="cloudService.js"></script>
+  <!-- Ton script principal -->
+  <script src="app.js"></script>
+</body>
+</html>
